@@ -60,6 +60,10 @@
 	    "on-scroll-down": "shift_up"
 	}
     },
+
+    "tray":{
+        "show-passive-items": true
+    },
     
 
     "network": {

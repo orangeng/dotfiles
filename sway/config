@@ -113,6 +113,9 @@ input type:keyboard {
     # Lockscreen (XF86AudioMedia is the "A" button the Fn row)
     bindsym $mod+XF86AudioMedia exec swaylock --ignore-empty-password --show-failed-attempts --color db0d0d
 
+    # Disable touchpad, the special key on top of F12
+    # bindcode 93 exec wpctl set-mute @DEFAULT_SINK@ toggle 
+
 #
 # Moving around:
 #
